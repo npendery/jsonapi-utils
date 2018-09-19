@@ -1,5 +1,6 @@
 /.bundle/
 /.yardoc
+/Gemfile.lock
 /_yardoc/
 /coverage/
 /doc/
@@ -19,3 +20,4 @@
 .DS_Store
 .byebug_history
 test_db
+Gemfile.lock

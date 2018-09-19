@@ -85,7 +85,7 @@ module JSONAPI
         #
         # @api private
         def apply_pagination?(options)
-          resource_paginator_name != :none && options[:paginate] != false
+          resource_paginator_name == :paged && options[:paginate] != false
         end
 
         # Creates an instance of ActionController::Parameters for page params.
